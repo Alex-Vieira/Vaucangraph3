@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ToolBar fx:id="toolbarTipo" styleClass="test" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <HBox>
+         <children>
+            <ToggleButton mnemonicParsing="false" selected="true" styleClass="left-pill" text="Design" />
+            <ToggleButton mnemonicParsing="false" styleClass="right-pill" text="Vaucanson-G Code" />
+         </children>
+      </HBox>
+   </items>
+</ToolBar>

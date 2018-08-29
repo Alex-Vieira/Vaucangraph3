@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VaucangraphFX.jnlp">
+  <information>
+    <title>VaucangraphFX</title>
+    <vendor>Kleber Kruger</vendor>
+    <description>Ferramenta gráfica desenvolvida em JavaFX para geração de código VauCanSon-G em documentos LaTeX.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VaucangraphFX.jar" size="66371" download="eager" />
+    <jar href="lib/jgraphx.jar" size="626605" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="VaucangraphFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="br.ufms.vaucangraph.main.VaucangraphFXApp"  name="VaucangraphFX" />
+  <update check="always"/>
+</jnlp>

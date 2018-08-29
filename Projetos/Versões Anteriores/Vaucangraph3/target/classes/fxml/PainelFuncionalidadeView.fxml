@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane fx:id="painelFuncionalidade" minHeight="150.0" minWidth="150.0" prefHeight="253.0" prefWidth="345.0" side="LEFT" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vaucangraph.PainelFuncionalidade.PainelFuncionalidadeView">
+   <tabs>
+      <Tab text="Elements">
+         <content>
+            <TabPane tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                  <Tab closable="false" text="Inspector">
+                     <content>
+                        <TreeView fx:id="treeInspector" />
+                     </content>
+                  </Tab>
+                  <Tab closable="false" text="Find" />
+               </tabs>
+            </TabPane>
+         </content>
+      </Tab>
+      <Tab closable="false" text="Outline" />
+      <Tab text="Algoritms" />
+   </tabs>
+</TabPane>

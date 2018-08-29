@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.input.*?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import com.jfoenix.controls.JFXButton?>
+
+
+
+      <ToolBar fx:id="toolBarPainelLateral" layoutX="10.0" layoutY="20.0" orientation="VERTICAL" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vaucangraph.BarraFerramentasLateral.BarraFerramentasLateralView">
+         <items>
+            <JFXToggleButton fx:id="TBSelecao" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" size="0.0" text="S" />
+            <Separator />
+            <VBox>
+               <children>
+                  <JFXToggleButton fx:id="TBEstadoPequeno" contentDisplay="GRAPHIC_ONLY">
+                     <graphic>
+                        <VBox>
+                           <children>
+                              <ImageView fitHeight="10.0" fitWidth="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/state.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </JFXToggleButton>
+                  <JFXToggleButton fx:id="TBEstadoMedio" contentDisplay="GRAPHIC_ONLY">
+                     <graphic>
+                        <VBox>
+                           <children>
+                              <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/state.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </JFXToggleButton>
+                  <JFXToggleButton fx:id="TBEstadoGrande" contentDisplay="GRAPHIC_ONLY">
+                     <graphic>
+                        <VBox>
+                           <children>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/state.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </JFXToggleButton>
+                  <JFXToggleButton contentDisplay="CENTER" layoutX="10.0" layoutY="75.0" mnemonicParsing="false" size="0.0" text="O" />
+               </children>
+            </VBox>
+            <Separator />
+            <JFXToggleButton fx:id="A" contentDisplay="CENTER" layoutX="10.0" layoutY="46.0" mnemonicParsing="false" size="0.0" text="A" />
+            <JFXToggleButton fx:id="B" contentDisplay="CENTER" layoutX="10.0" layoutY="75.0" mnemonicParsing="false" size="0.0" text="A" />
+            <JFXToggleButton fx:id="C" contentDisplay="CENTER" layoutX="10.0" layoutY="104.0" mnemonicParsing="false" size="0.0" text="A" />
+         </items>
+      </ToolBar>
+

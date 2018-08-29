@@ -1,0 +1,96 @@
+.decoration-background{
+-fx-fill: radial-gradient(focus-angle 45deg, focus-distance 20%, center 25% 25%, radius 50%, reflect, #eeeeee88, #aaaaaa88 75%, gray);
+-fx-stroke-width: 0;
+-fx-arc-width:20px;
+-fx-arc-height:20px;
+}
+.decoration-shadow{
+-fx-fill: black;
+-fx-stroke-width: 0;
+-fx-arc-width:20px;
+-fx-arc-height:20px;
+}
+
+.separator{
+    -fx-background: white;
+
+}
+.button{
+    -fx-padding: 0.7em 0.57em;
+    -jfx-button-type: RAISED;
+    -fx-background-color: transparent;
+    -fx-pref-width: 30;
+    -fx-pref-height: 30;
+    -fx-text-fill: rgb(110,110,110);
+    -fx-margin: 5px;
+
+}
+
+
+#anchorPanePainelSuperior{
+    -fx-background-color: rgb(0,0,0);
+    -fx-padding: 8px;
+    -fx-border-color: transparent;
+    -fx-border-size: 2px;
+
+}
+#toolBarPainelSuperior{
+    -fx-background-color: derive( rgb(0,0,0), 50%);
+    -fx-padding: 10px;
+
+}
+
+#anchorPanePainelLateral{
+    -fx-background-color: rgb(0,0,0);
+    -fx-padding-right: 5px;
+    -fx-padding-left: 20px;
+    -fx-border-color: transparent;
+    -fx-border-size: 2px;
+    -fx-text-fill: white;
+}
+#toolBarPainelLateral{
+    -fx-background-color: rgb(50,50,50);
+    -fx-padding: 10px;
+}
+
+#painelPropriedade{
+    -fx-background-color: derive( rgb(0,0,0), 50%);
+    -fx-padding: 10px;
+    -fx-border-color: black;
+    -fx-border-size: 2px;
+}
+#anchorPanePrincipal{
+    -fx-background-color: rgb(0,0,0);
+}
+#menuBar{
+    -fx-background-color: transparent;
+    -fx-font-color: white;
+}
+
+#tabPanePainelFuncionalidade{
+    -fx-background-color: rgb(50,50,50);
+    -fx-padding: 10px;
+}
+
+#anchorPanePainelModelagem{
+    -fx-background-color: derive( rgb(0,0,0), 50%);
+    -fx-padding: 8px;
+    -fx-border-color: transparent;
+    -fx-border-size: 2px;
+
+}
+#toolBarJanela{
+ -fx-background-color: transparent;
+ -fx-align: top-right;
+}
+#splitPaneMid{
+     -fx-background-color: rgb(0,0,0);
+}
+#toolBarLateral{
+     -fx-background-color: rgb(0,0,0);
+}
+#toolBarSuperior{
+     -fx-background-color: rgb(0,0,0);
+}
+
+

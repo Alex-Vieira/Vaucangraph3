@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head> 
+        <title> Vaucangraph 3 </title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="../style/mutavel.css"/>
+        <script type="text/javascript" src="mxClient.min.js"></script>
+
+    </head>
+
+    <body id="principal" onload="main(document.getElementById('graphContainer'))">
+
+        <div id="graphContainer" >
+        </div>
+
+        <script type="text/javascript">
+            var vertice;
+            var graph;
+            var parent;
+            var style;
+            var model = new mxGraphModel();
+
+            function main(container)
+            {
+                if (!mxClient.isBrowserSupported())
+                {
+                    mxUtils.error('Browser is not supported!', 200, false);
+                } else {
+                    mxEvent.disableContextMenu(container);
+                    graph = new mxGraph(container);
+                    new mxRubberband(graph);
+
+                }
+            }
+            ;
+
+            function alteraNome() {
+                parent = graph.getDefaultParent();
+                graph.getModel().beginUpdate();
+                try
+                {
+                 
+                } finally
+                {
+                    graph.getModel().endUpdate();
+                }
+
+            }
+            function tamanhoPainel(height, width) {
+                document.getElementById('graphContainer').style.width = width;
+                document.getElementById('graphContainer').style.height = height;
+                document.getElementById('graphContainer').style.backgroundColor = "blue";
+            }
+
+            function adicionaVertice(x, y, id, rotulo, tamanhoX, tamanhoY, estilo) {
+                parent = graph.getDefaultParent();
+                graph.getModel().beginUpdate();
+                try
+                {
+                    graph.insertVertex(parent, id, rotulo, x, y, tamanhoX, tamanhoY, estilo);
+
+
+                } finally
+                {
+                    graph.getModel().endUpdate();
+                }
+            }
+
+            function adicionaAresta(origem, destino) {
+                var edge = graph.insertEdge(parent, null, '', origem, destino);
+            }
+
+            function excluiVertice(vertice) {
+
+                parent = graph.getDefaultParent();
+                graph.getModel().beginUpdate();
+                try
+                {
+                    vertice = graph.insertVertex(parent, null, 'teste,', event.clientX, event.clientY, 80, 80, "shape=ellipse;perimter=ellipsePerimeter");
+                } finally
+                {
+                    graph.getModel().endUpdate();
+                }
+            }
+            function estilo() {
+
+            }
+        </script>
+    </body>
+</html>

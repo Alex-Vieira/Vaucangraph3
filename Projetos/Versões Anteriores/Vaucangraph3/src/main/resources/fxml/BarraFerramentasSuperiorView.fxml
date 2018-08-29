@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+
+
+<ToolBar fx:id="toolBarPainelSuperior" layoutX="10.0" layoutY="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vaucangraph.BarraFerramentasSuperior.BarraFerramentasSuperiorView">
+    <items>
+        <JFXButton fx:id="BTNnovo" contentDisplay="GRAPHIC_ONLY">
+            <graphic>
+                <VBox>
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/novo.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="BTNabrir" contentDisplay="GRAPHIC_ONLY">
+            <graphic>
+                <VBox>
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/abrir.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="BTNsalvar" contentDisplay="GRAPHIC_ONLY">
+            <graphic>
+                <VBox>
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/salvar.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </graphic>
+        </JFXButton>
+        <Separator orientation="VERTICAL" />
+        <JFXButton buttonType="RAISED" layoutX="69.0" layoutY="10.0" ripplerFill="#8ccdff" text="U" />
+        <JFXButton buttonType="RAISED" layoutX="106.0" layoutY="10.0" ripplerFill="#8ccdff" text="R" />
+        <Separator orientation="VERTICAL" />
+        <JFXComboBox fx:id="ComboZoom" maxHeight="20.0" prefHeight="20.0"/> 
+       
+                
+        <JFXButton fx:id="BTNzoomMais" contentDisplay="GRAPHIC_ONLY">
+            <graphic>
+                <VBox>
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/zoomMais.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </graphic>
+        </JFXButton>
+               
+        <JFXButton fx:id="BTNzoomMenos" contentDisplay="GRAPHIC_ONLY">
+            <graphic>
+                <VBox>
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/zoomMenos.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </graphic>
+        </JFXButton>
+        <Separator orientation="VERTICAL" />
+        <Label contentDisplay="GRAPHIC_ONLY">
+            <graphic>
+                <VBox>
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/horizontal.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </graphic>
+        </Label>
+        <JFXTextField fx:id="TFHorizontal" maxHeight="20.0" maxWidth="80.0" minHeight="20.0" minWidth="80.0" prefColumnCount="0" prefHeight="20.0" prefWidth="80.0" />
+        <Label contentDisplay="GRAPHIC_ONLY">
+            <graphic>
+                <VBox>
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/vertical.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </graphic>
+        </Label>
+        <JFXTextField fx:id="TFVertical" layoutX="379.0" layoutY="13.0" maxHeight="20.0" maxWidth="80.0" minHeight="20.0" minWidth="80.0" prefColumnCount="0" prefHeight="20.0" prefWidth="80.0" />
+        <Separator orientation="VERTICAL" />
+        <HBox alignment="CENTER">
+            <children>
+                <ToggleButton contentDisplay="TEXT_ONLY" mnemonicParsing="false" text="O"/>
+                <ToggleButton contentDisplay="TEXT_ONLY" mnemonicParsing="false"  text="O"/>
+                <ToggleButton contentDisplay="TEXT_ONLY" mnemonicParsing="false" text="O" />
+                <ToggleButton contentDisplay="TEXT_ONLY" mnemonicParsing="false" text="O" />
+            </children>
+        </HBox>
+    </items>
+    <effect>
+        <Reflection fraction="1.0" topOpacity="0.09" />
+    </effect>
+</ToolBar>
