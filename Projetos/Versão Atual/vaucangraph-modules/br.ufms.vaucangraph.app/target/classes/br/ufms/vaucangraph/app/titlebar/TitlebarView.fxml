@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="titleBarHBox" styleClass="title-bar" xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/8.0.172-ea" fx:controller="br.ufms.vaucangraph.app.titlebar.TitlebarView">
+   <cursor>
+      <Cursor fx:constant="DEFAULT"/>
+   </cursor>
+   <ImageView fx:id="appIconImageView" fitHeight="29.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+      <cursor>
+         <Cursor fx:constant="DEFAULT"/>
+      </cursor>
+   </ImageView>
+   <MenuBar fx:id="menuBar" HBox.hgrow="ALWAYS">
+      <cursor>
+         <Cursor fx:constant="DEFAULT"/>
+      </cursor>
+      <Menu mnemonicParsing="false" text="File">
+         <MenuItem text="New project">
+            <accelerator>
+               <KeyCodeCombination alt="ANY" code="N" control="ANY" meta="ANY" shift="ANY" shortcut="ANY"/>
+            </accelerator>
+         </MenuItem>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <MenuItem mnemonicParsing="false" text="Open project"/>
+         <MenuItem mnemonicParsing="false" text="Close project"/>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <MenuItem mnemonicParsing="false" text="Save"/>
+         <MenuItem mnemonicParsing="false" text="Save as"/>
+         <MenuItem mnemonicParsing="false" text="Save all"/>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <Menu mnemonicParsing="false" text="Export">
+            <MenuItem mnemonicParsing="false" text="Image"/>
+            <MenuItem mnemonicParsing="false" text="Source code"/>
+         </Menu>
+         <MenuItem mnemonicParsing="false" text="Page setup"/>
+         <MenuItem mnemonicParsing="false" text="Print"/>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <MenuItem mnemonicParsing="false" text="Quit"/>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Edit">
+         <MenuItem mnemonicParsing="false" text="Undo"/>
+         <MenuItem mnemonicParsing="false" text="Redo"/>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <MenuItem mnemonicParsing="false" text="Cut"/>
+         <MenuItem mnemonicParsing="false" text="Copy"/>
+         <MenuItem mnemonicParsing="false" text="Paste"/>
+         <MenuItem mnemonicParsing="false" text="Delete"/>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <MenuItem mnemonicParsing="false" text="Rename"/>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <MenuItem mnemonicParsing="false" text="Select all"/>
+         <MenuItem mnemonicParsing="false" text="Select none"/>
+         <SeparatorMenuItem mnemonicParsing="false"/>
+         <MenuItem mnemonicParsing="false" text="Find"/>
+      </Menu>
+      <Menu mnemonicParsing="false" text="View">
+         <CheckMenuItem mnemonicParsing="false" text="Show rulers"/>
+         <Menu mnemonicParsing="false" text="Grelha">
+            <CheckMenuItem mnemonicParsing="false" text="Show grid"/>
+            <CheckMenuItem mnemonicParsing="false" text="Enable grid"/>
+            <SeparatorMenuItem mnemonicParsing="false"/>
+            <MenuItem mnemonicParsing="false" text="Grid size"/>
+            <MenuItem mnemonicParsing="false" text="Grid color"/>
+         </Menu>
+         <Menu mnemonicParsing="false" text="Zoom">
+            <MenuItem mnemonicParsing="false" text="400%"/>
+            <MenuItem mnemonicParsing="false" text="200%"/>
+            <MenuItem mnemonicParsing="false" text="150%"/>
+            <MenuItem mnemonicParsing="false" text="100%"/>
+            <MenuItem mnemonicParsing="false" text="75%"/>
+            <MenuItem mnemonicParsing="false" text="50%"/>
+         </Menu>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Help">
+         <MenuItem mnemonicParsing="false" text="About"/>
+      </Menu>
+   </MenuBar>
+   <HBox styleClass="window-manager">
+      <cursor>
+         <Cursor fx:constant="DEFAULT"/>
+      </cursor>
+      <padding>
+         <Insets right="5.0"/>
+      </padding>
+      <HBox.margin>
+         <Insets/>
+      </HBox.margin>
+      <Button fx:id="btnMinimize" maxHeight="19.0" maxWidth="30.0" minHeight="19.0" minWidth="30.0"
+              mnemonicParsing="false" prefHeight="19.0" prefWidth="30.0" styleClass="first" text="-"
+              textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT"/>
+         </cursor>
+         <font>
+            <Font size="10.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnMaximize" maxHeight="19.0" maxWidth="30.0" minHeight="19.0" minWidth="30.0"
+              mnemonicParsing="false" prefHeight="19.0" prefWidth="30.0" text="+" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT"/>
+         </cursor>
+         <font>
+            <Font name="System Bold" size="10.0"/>
+         </font>
+      </Button>
+      <Button fx:id="btnClose" maxHeight="19.0" maxWidth="50.0" minHeight="19.0" minWidth="50.0"
+              mnemonicParsing="false" prefHeight="19.0" prefWidth="50.0" styleClass="last" text="x"
+              textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT"/>
+         </cursor>
+         <font>
+            <Font name="System Bold" size="10.0"/>
+         </font>
+      </Button>
+   </HBox>
+</HBox>

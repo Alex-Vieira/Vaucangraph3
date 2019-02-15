@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<TabPane side="LEFT" tabClosingPolicy="UNAVAILABLE"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufms.vaucangraph.app.propertytable.PropertytableView">
+   <tabs>
+      <Tab text="Elements">
+         <content>
+            <TabPane tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                   <fx:include source="../inspector/InspectorView.fxml"/>
+                   <fx:include source="../find/FindView.fxml"/>
+               </tabs>
+            </TabPane>
+         </content>
+      </Tab>
+       <fx:include source="../outline/OutlineView.fxml"/>
+       <fx:include source="../algorithms/AlgorithmsView.fxml"/>
+   </tabs>
+</TabPane>

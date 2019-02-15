@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Tab closable="false" text="Properties" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <TableView>
+         <columns>
+            <TableColumn editable="false" prefWidth="75.0" text="Property" />
+            <TableColumn prefWidth="75.0" text="Value" />
+         </columns>
+      </TableView>
+   </content>
+</Tab>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="br.ufms.vaucangraph.app" />
+        <module name="br.ufms.vaucangraph.core" />
+        <module name="br.ufms.vaucangraph.drawing" />
+        <module name="br.ufms.vaucangraph.transducer" />
+        <module name="vaucangraph-app" />
+        <module name="vaucangraph-core" />
+        <module name="vaucangraph-drawing" />
+        <module name="vaucangraph-transducer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

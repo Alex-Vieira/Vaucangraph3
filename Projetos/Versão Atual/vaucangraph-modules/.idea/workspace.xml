@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c54e9885-0419-4967-bb07-bf1995d93f9c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/br.ufms.vaucangraph.transducer/target/" />
+    <ignored path="$PROJECT_DIR$/br.ufms.vaucangraph.core/target/" />
+    <ignored path="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/target/" />
+    <ignored path="$PROJECT_DIR$/br.ufms.vaucangraph.app/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1995099393">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="29" />
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="fxml" value="1" />
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/ToolbarView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/style/StyleViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/titlebar/TitlebarViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/ToolbarViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/inspector/InspectorView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="54" selection-start-line="25" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/palette/PaletteViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/properties/PropertiesView.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/properties/PropertiesView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/cellType.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/edge.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/edgeType.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/graph.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/MouseGestures.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/Edge.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/ZoomableScrollPane.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/base/Layout.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/layout/base/Layout.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/shape/RectangleCell.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/shape/TriangleCell.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.transducer/src/main/java/Transducer.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/editorView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/editorViewModel.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/editorView1.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/Vertex.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/Model.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/layout/random/PositionLayout.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/shape/CircleCell.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/EdgeProperty.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/inspector/inspectorView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/statusbar/statusbarView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/editorView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/editorTextView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/EditorTextView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectViewModel.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/titlebar/titlebarView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/pom.xml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/statusbar/statusbarView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/resources/css/vaucangraph-default.css" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/palette/paletteView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/titlebar/titlebarView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/GraphProperty.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/VertexProperty.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/palette/paletteView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/inspector/InspectorView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/ProjectProperty.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/filechooser/FileChooserView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/filechooser/FileChooserViewModel.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/filechooser/FileChooserView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/toolbarViewModel.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/toolbarView.fxml" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/toolbarView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/palette/PaletteViewModel.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/ToolbarView.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/style/styleViewModel.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/style/StyleViewModel.java" />
+        <option value="$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/titlebar/TitlebarViewModel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="816" />
+    <option name="height" value="576" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vaucangraph-modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vaucangraph-modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vaucangraph-modules" type="58d84e3e:PackageViewProjectNode" />
+              <item name="vaucangraph-core" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="vaucangraph-modules" type="58d84e3e:PackageViewProjectNode" />
+              <item name="vaucangraph-drawing" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="vaucangraph-modules" type="58d84e3e:PackageViewProjectNode" />
+              <item name="vaucangraph-transducer" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550195827001" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/_/Vaucangraph2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4597701" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\resources\icons" />
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\resources\style" />
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\java\br\ufms\vaucangraph\app\toolbar" />
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.ufms.vaucangraph.app.toolbar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\java\br\ufms\vaucangraph\app\main" />
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\java\br\ufms\vaucangraph\app\editor" />
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\java\br\ufms\vaucangraph\app\statusbar" />
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.core\src\main\java\br\ufms\vaucangraph\core" />
+      <recent name="C:\Users\admin\IdeaProjects\vaucangraph-modules\br.ufms.vaucangraph.app\src\main\java\br\ufms\vaucangraph\app\toolbar" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.VaucangraphFX">
+    <configuration name="VaucangraphApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.ufms.vaucangraph.app.VaucangraphApp" />
+      <module name="vaucangraph-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufms.vaucangraph.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VaucangraphFX" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="br.ufms.vaucangraph.app.VaucangraphApp" />
+      <module name="vaucangraph-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.VaucangraphFX" />
+      <item itemvalue="Application.VaucangraphApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VaucangraphApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c54e9885-0419-4967-bb07-bf1995d93f9c" name="Default Changelist" comment="" />
+      <created>1541099441184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541099441184</updated>
+      <workItem from="1541099448060" duration="4810000" />
+      <workItem from="1542187752796" duration="100000" />
+      <workItem from="1542188134938" duration="296000" />
+      <workItem from="1542190429692" duration="4671000" />
+      <workItem from="1542201634203" duration="2050000" />
+      <workItem from="1543487316812" duration="14000" />
+      <workItem from="1548667646927" duration="1610000" />
+      <workItem from="1548669829922" duration="1493000" />
+      <workItem from="1550195445841" duration="365000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16184000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497851" weight="0.31967214" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39908257" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502149" side_tool="true" weight="0.32795697" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49928367" weight="0.32258064" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3295129" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.drawing/src/main/java/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="64" selection-start-line="64" selection-end-line="64" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/style/StyleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/GraphType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/TransitionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/VertexSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/stylepane/StylepaneView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/propertytable/PropertytableView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/outline/OutlineView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/statusbar/StatusbarView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/style/StyleView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="126" selection-start-line="4" selection-start-column="126" selection-end-line="4" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/main/MainView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="157" selection-start-line="5" selection-start-column="157" selection-end-line="5" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/main/MainViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/EditorTextView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/EditorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/find/FindView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/main/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/algorithms/AlgorithmsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/titlebar/TitlebarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/statusbar/StatusbarViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/statusbar/StatusbarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/resources/icons/open.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/resources/icons/height.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/EditorDrawerView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="287" selection-start-line="5" selection-start-column="287" selection-end-line="5" selection-end-column="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/editor/EditorView1.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="187" selection-start-line="8" selection-start-column="187" selection-end-line="8" selection-end-column="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/resources/css/vaucangraph-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="2986" lean-forward="true" selection-start-line="2986" selection-end-line="2986" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/palette/PaletteView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="93" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/titlebar/TitlebarView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/GraphProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="91" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/palette/PaletteView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/VertexProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/filechooser/FileChooserView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/filechooser/FileChooserView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/filechooser/FileChooserViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/EdgeProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.core/src/main/java/br/ufms/vaucangraph/core/ProjectProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/inspector/InspectorView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/VaucangraphApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/ToolbarView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/ToolbarViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/project/NewProjectViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/inspector/InspectorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="54" selection-start-line="25" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/palette/PaletteViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/properties/PropertiesView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/properties/PropertiesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/toolbar/ToolbarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/style/StyleViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.ufms.vaucangraph.app/src/main/java/br/ufms/vaucangraph/app/titlebar/TitlebarViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4597701" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4597701" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>vaucangraph-app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: de.saxsys:mvvmfx:1.7.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4597701" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

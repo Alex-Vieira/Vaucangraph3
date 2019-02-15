@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane fx:id="projectTabPane" tabClosingPolicy="ALL_TABS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufms.vaucangraph.app.editor.EditorView">
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</TabPane>
